@@ -13,4 +13,5 @@ When the API is called to find out the friend recommendations for a person,
 the algorithm should recommend a list of people based on most mutual connections.
 
 ## Future enhancements
+Not in scope of the workshop. Try it out yourselves later!
 If there are not enough mutual friends, show the most popular people.
