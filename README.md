@@ -1,5 +1,5 @@
 # coding-workshop
-Code for a coding workshop for students.
+Resources for a coding workshop for students.
 
 ## App Coding
 * TODO list app which can be accessed from the terminal.
@@ -11,4 +11,5 @@ Code for a coding workshop for students.
 ## Debugging
 * Bill Generator system.
 
-NOTE! Do not use AI to solve these problems as it will stop you from learning the fundamentals of application development.
+## Design
+* System design & DB design. NEEDS MORE INFO
