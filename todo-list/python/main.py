@@ -37,20 +37,20 @@ def remove_from_list():
 
 
 def mark_complete():
-    del_index = input("Please enter the index of the entry you would mark complete: ")
+    complete_index = input("Please enter the index of the entry you would mark complete: ")
     try:
-        del_index = int(del_index)
+        complete_index = int(complete_index)
     except ValueError:
-        print("Invalid number", del_index)
+        print("Invalid number", complete_index)
         return
-    if del_index < 1 or del_index > len(todo_list):
-        print("Entry with such an index does not exist.", del_index)
+    if complete_index < 1 or complete_index > len(todo_list):
+        print("Entry with such an index does not exist.", complete_index)
         return
     
-    todo_list[del_index-1]['completed'] = True
+    todo_list[complete_index-1]['completed'] = True
     print("Entry marked complete successfully")
 
-def clear_lsit():
+def clear_list():
     confirm = input("Are you sure you want to clear the list? (Y/N): ")
     if confirm.lower().startswith('y'):
         todo_list.clear()
@@ -92,17 +92,19 @@ What would you like to do?
         case "3":
             mark_complete()
         case "4":
-            clear_lsit()
+            clear_list()
         case "5":
-            exit(0)
+            return False
         case _:
             print("Unknown choice")
     save_list()
+    return True
 
 def main():
     load_list()
     print("To-Do List App")
-    while True:
-        capture_interaction()
+    continue_interaction = True
+    while continue_interaction:
+        continue_interaction = capture_interaction()
 
 main()
