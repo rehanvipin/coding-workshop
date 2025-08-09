@@ -7,9 +7,3 @@ Resources for a coding workshop for students.
 
 ## Problem Solving
 * Friend recommendation algorithm.
-
-## Debugging
-* Bill Generator system.
-
-## Design
-* System design & DB design. NEEDS MORE INFO

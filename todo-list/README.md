@@ -14,4 +14,5 @@ They should be able to perform the below operations:
 - [ ] See the entries of the list.
 - [ ] Mark things as completed.
 - [ ] Remove things.
-- [ ] Manage multiple lists.
+- [ ] Save and load from file.
+- [ ] Validate user input.

@@ -1,0 +1,239 @@
+{
+  "10": {
+    "description": "Mist"
+  },
+  "11": {
+    "description": "Diamond dust"
+  },
+  "12": {
+    "description": "Distant lightning"
+  },
+  "18": {
+    "description": "Squalls"
+  },
+  "20": {
+    "description": "Fog"
+  },
+  "21": {
+    "description": "PRECIPITATION"
+  },
+  "22": {
+    "description": "Drizzle (not freezing) or snow grains"
+  },
+  "23": {
+    "description": "Rain (not freezing)"
+  },
+  "24": {
+    "description": "Snow"
+  },
+  "25": {
+    "description": "Freezing drizzle or freezing rain"
+  },
+  "26": {
+    "description": "Thunderstorm (with or without precipitation)"
+  },
+  "27": {
+    "description": "BLOWING OR DRIFTING SNOW OR SAND"
+  },
+  "28": {
+    "description": "Blowing or drifting snow or sand, visibility equal to, or greater than, 1 km"
+  },
+  "29": {
+    "description": "Blowing or drifting snow or sand, visibility less than 1 km"
+  },
+  "30": {
+    "description": "FOG"
+  },
+  "31": {
+    "description": "Fog or ice fog in patches"
+  },
+  "32": {
+    "description": "Fog or ice fog, has become thinner during the past hour"
+  },
+  "33": {
+    "description": "Fog or ice fog, no appreciable change during the past hour"
+  },
+  "34": {
+    "description": "Fog or ice fog, has begun or become thicker during the past hour"
+  },
+  "35": {
+    "description": "Fog, depositing rime"
+  },
+  "40": {
+    "description": "PRECIPITATION"
+  },
+  "41": {
+    "description": "Precipitation, slight or moderate"
+  },
+  "42": {
+    "description": "Precipitation, heavy"
+  },
+  "43": {
+    "description": "Liquid precipitation, slight or moderate"
+  },
+  "44": {
+    "description": "Liquid precipitation, heavy"
+  },
+  "45": {
+    "description": "Solid precipitation, slight or moderate"
+  },
+  "46": {
+    "description": "Solid precipitation, heavy"
+  },
+  "47": {
+    "description": "Freezing precipitation, slight or moderate"
+  },
+  "48": {
+    "description": "Freezing precipitation, heavy"
+  },
+  "50": {
+    "description": "DRIZZLE"
+  },
+  "51": {
+    "description": "Drizzle, not freezing, slight"
+  },
+  "52": {
+    "description": "Drizzle, not freezing, moderate"
+  },
+  "53": {
+    "description": "Drizzle, not freezing, heavy"
+  },
+  "54": {
+    "description": "Drizzle, freezing, slight"
+  },
+  "55": {
+    "description": "Drizzle, freezing, moderate"
+  },
+  "56": {
+    "description": "Drizzle, freezing, heavy"
+  },
+  "57": {
+    "description": "Drizzle and rain, slight"
+  },
+  "58": {
+    "description": "Drizzle and rain, moderate or heavy"
+  },
+  "60": {
+    "description": "RAIN"
+  },
+  "61": {
+    "description": "Rain, not freezing, slight"
+  },
+  "62": {
+    "description": "Rain, not freezing, moderate"
+  },
+  "63": {
+    "description": "Rain, not freezing, heavy"
+  },
+  "64": {
+    "description": "Rain, freezing, slight"
+  },
+  "65": {
+    "description": "Rain, freezing, moderate"
+  },
+  "66": {
+    "description": "Rain, freezing, heavy"
+  },
+  "67": {
+    "description": "Rain (or drizzle) and snow, slight"
+  },
+  "68": {
+    "description": "Rain (or drizzle) and snow, moderate or heavy"
+  },
+  "70": {
+    "description": "SNOW"
+  },
+  "71": {
+    "description": "Snow, slight"
+  },
+  "72": {
+    "description": "Snow, moderate"
+  },
+  "73": {
+    "description": "Snow, heavy"
+  },
+  "74": {
+    "description": "Ice pellets, slight"
+  },
+  "75": {
+    "description": "Ice pellets, moderate"
+  },
+  "76": {
+    "description": "Ice pellets, heavy"
+  },
+  "77": {
+    "description": "Snow grains"
+  },
+  "78": {
+    "description": "Ice crystals"
+  },
+  "80": {
+    "description": "SHOWER(S) or INTERMITTENT PRECIPITATION"
+  },
+  "81": {
+    "description": "Rain shower(s) or intermittent rain, slight"
+  },
+  "82": {
+    "description": "Rain shower(s) or intermittent rain, moderate"
+  },
+  "83": {
+    "description": "Rain shower(s) or intermittent rain, heavy"
+  },
+  "84": {
+    "description": "Rain shower(s) or intermittent rain, violent"
+  },
+  "85": {
+    "description": "Snow shower(s) or intermittent snow, slight"
+  },
+  "86": {
+    "description": "Snow shower(s) or intermittent snow, moderate"
+  },
+  "87": {
+    "description": "Snow shower(s) or intermittent snow, heavy"
+  },
+  "89": {
+    "description": "Hail"
+  },
+  "90": {
+    "description": "THUNDERSTORM"
+  },
+  "91": {
+    "description": "Thunderstorm, slight or moderate, with no precipitation"
+  },
+  "92": {
+    "description": "Thunderstorm, slight or moderate, with rain showers and/or snow showers"
+  },
+  "93": {
+    "description": "Thunderstorm, slight or moderate, with hail"
+  },
+  "94": {
+    "description": "Thunderstorm, heavy, with no precipitation"
+  },
+  "95": {
+    "description": "Thunderstorm, heavy, with rain showers and/or snow showers"
+  },
+  "96": {
+    "description": "Thunderstorm, heavy, with hail"
+  },
+  "99": {
+    "description": "Tornado"
+  },
+  "00": {
+    "description": "No significant weather observed"
+  },
+  "01": {
+    "description": "Clouds generally dissolving or becoming less developed during the past hour"
+  },
+  "02": {
+    "description": "State of sky on the whole unchanged during the past hour"
+  },
+  "03": {
+    "description": "Clouds generally forming or developing during the past hour"
+  },
+  "04": {
+    "description": "Haze or smoke, or dust in suspension in the air, visibility equal to, or greater than, 1 km"
+  },
+  "05": {
+    "description": "Haze or smoke, or dust in suspension in the air, visibility less than 1 km"
+  }
+}
