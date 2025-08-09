@@ -9,7 +9,7 @@ The app should be accessible through terminal.
 User should be able to interact by providing input and seeing output.
 They should be able to see the lists after stopping and re-starting the app.
 
-They should be able to perform the below operations:
+## Tracker
 - [ ] Add entries to the list.
 - [ ] See the entries of the list.
 - [ ] Mark things as completed.

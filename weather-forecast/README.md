@@ -12,6 +12,14 @@ For any city, user should be able to see :
 * How is the sky going to be on each day? e.g., Sunny, Cloudy, Rainy, etc.
 
 ## APIs required
-* https://nominatim.openstreetmap.org/search?q=bangalore&format=jsonv2
-* https://api.open-meteo.com/v1/forecast?latitude=12.9719&longitude=77.5937&daily=weather_code,temperature_2m_max,temperature_2m_min&timezone=Asia%2FCalcutta&temporal_resolution=hourly_6
-* https://artefacts.ceda.ac.uk/badc_datadocs/surface/code.html
+* [Nominatim](https://nominatim.openstreetmap.org/search?q=bangalore&format=jsonv2). [Docs](https://nominatim.org/release-docs/develop/api/Overview/)
+* [Places DB](https://www.geoapify.com/data-share/localities/in.zip). [Docs](https://www.geoapify.com/download-all-the-cities-towns-villages/)
+* [Open-Meteo](https://api.open-meteo.com/v1/forecast?latitude=12.9719&longitude=77.5937&daily=weather_code,temperature_2m_max,temperature_2m_min&timezone=Asia%2FCalcutta&temporal_resolution=hourly_6). [Docs](https://open-meteo.com/en/docs)
+* Weather codes [reference](https://artefacts.ceda.ac.uk/badc_datadocs/surface/code.html). We chose automated readings table for the workshop.
+
+## Tracker
+- [ ] Get city name from user.
+- [ ] Fetch coordinates for the city. Or error message if not found.
+- [ ] Fetch weather for the location.
+- [ ] Pretty print the information.
+- [ ] Cache API results.
