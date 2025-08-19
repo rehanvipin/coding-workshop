@@ -25,7 +25,7 @@ def search(arrParam, targetParam):
             high = mid - 1
     return False
 
-if _name_ == '_main_':
+if __name__ == '_main_':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
     n = int(input().strip())

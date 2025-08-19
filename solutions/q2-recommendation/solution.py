@@ -27,3 +27,5 @@ def recommendFriends(userList, friendsList, targetUser):
                 recommendations.append(candidate)
     
     return recommendations
+
+# code for main function is in the hackerrank question
