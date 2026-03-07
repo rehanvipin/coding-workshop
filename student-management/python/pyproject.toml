@@ -1,0 +1,7 @@
+[project]
+name = "student-management"
+version = "0.1.0"
+description = "Manage list of students in a class."
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
