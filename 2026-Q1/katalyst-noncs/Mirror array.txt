@@ -1,0 +1,16 @@
+public static boolean isPalindrome(List<Integer> arr) {
+        return checkPalindrome(arr, 0, arr.size() - 1);
+    }
+    
+    private static boolean checkPalindrome(List<Integer> arr, int left, int right) {
+
+        if (left >= right) {
+            return true;
+        }
+
+        if (!arr.get(left).equals(arr.get(right))) {
+            return false;
+        }
+
+        return checkPalindrome(arr, left + 1, right - 1);
+}
