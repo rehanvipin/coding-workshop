@@ -1,0 +1,85 @@
+Functional Requirements
+
+1.Users can search restaurants by name, cuisine, or location.
+2.Users can view menu items.
+3.Users can add items to cart.
+4.Users can place orders.
+5.Users can track order status.
+6.Restaurants can manage menus and accept orders.
+7.Delivery partners can pick up and deliver orders.
+8.Users can make payments (UPI, card, wallet, COD).
+
+User
+-----
+userId
+name
+phone
+email
+addresses[]
+
+
+Restaurant
+-----------
+restaurantId
+name
+location
+rating
+cuisine
+isOpen
+
+
+MenuItem
+---------
+menuItemId
+restaurantId
+name
+price
+isAvailable
+
+
+Order
+------
+orderId
+userId
+restaurantId
+items[]
+totalPrice
+status
+paymentStatus
+deliveryPartnerId
+timestamp
+
+
+Cart
+-----
+cartId
+userId
+cartItems[]--wont exist for database
+restaurantId
+totalAmount
+
+
+CartItem
+--------
+menuItemId
+name
+price
+quantity
+customizations
+
+
+Payment
+--------
+paymentId
+orderId
+amount
+status
+method
+
+
+DeliveryPartner
+----------------
+partnerId
+location(contains latitude,longitude)
+availability
+rating
