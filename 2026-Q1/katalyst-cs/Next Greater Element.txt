@@ -1,0 +1,21 @@
+public static List<Integer> nextGreaterElement(List<Integer> arr) {
+        int n = arr.size();
+        Stack<Integer> stack = new Stack<>();
+        List<Integer> result = new ArrayList<>();
+
+        for (int i = 0; i < n; i++) {
+            result.add(-1);
+        }
+
+        for (int i = 0; i < n; i++) {
+
+            while (!stack.isEmpty() && arr.get(i) > arr.get(stack.peek())) {
+                int index = stack.pop();
+                result.set(index, arr.get(i));
+            }
+
+            stack.push(i);
+        }
+
+        return result;
+}

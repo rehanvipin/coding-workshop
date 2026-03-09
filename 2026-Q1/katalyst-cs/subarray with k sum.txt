@@ -1,0 +1,19 @@
+public static boolean subarraySumExists(List<Integer> arr, int k) {
+         Map<Integer, Integer> map = new HashMap<>();
+        int sum = 0;
+
+        map.put(0, 1);
+
+        for (int num : arr) {
+            sum += num;
+
+            if (map.containsKey(sum - k)) {
+                return true;
+            }
+
+            map.put(sum, map.getOrDefault(sum, 0) + 1);
+        }
+
+        return false;
+
+}
